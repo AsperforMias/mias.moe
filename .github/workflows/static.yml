@@ -2,7 +2,7 @@ name: Deploy Astro theme to Pages
 
 on:
   push:
-    branches: [ main ] # 或者你使用的主要分支
+    branches: [ master ] # 或者你使用的主要分支
   workflow_dispatch:
 
 permissions:
