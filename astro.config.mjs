@@ -32,6 +32,6 @@ export default defineConfig({
       }
     }
   },
-  site: 'https://astro.koibumi.art/',
+  site: 'https://mias.moe',
   integrations: [mdx(), sitemap(), solidJs()]
 });
