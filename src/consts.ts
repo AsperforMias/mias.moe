@@ -1,17 +1,17 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = 'Koibumi Blog';
+export const SITE_TITLE = 'AsperforMias Blog';
 
-export const SITE_DESCRIPTION = 'A blog about SolidJS, Astro, and koibumi design.';
+export const SITE_DESCRIPTION = 'AsperforMias\'s blog,built with SolidJS and Astro ';
 
 export const FAVICON_SRC = '/favicon.svg';
 
 export const AVATAR_SRC = '/avatar.avif';
 
-export const BIO = "This is a demo site for Koibumi Astro Theme. Fork this from github and start your own blog!";
+export const BIO = "Hi~这里是米娜，一个平庸的大飞舞,什么都不会！QAQ";
 
-export const GLOBAL_STYLE: 'quartz' | 'glass' | 'lightGlass' = 'glass'
+export const GLOBAL_STYLE: 'quartz' | 'glass' | 'lightGlass' = 'quartz'
 
-export const COPYRIGHT_NAME = 'Koibumi Design';
+export const COPYRIGHT_NAME = 'AsperforMias';
 
