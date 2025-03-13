@@ -4,6 +4,7 @@ description: '介绍如何使用恋文 Astro 主题博客（中文文档）'
 pubDate: 'Mar 27 2023'
 heroImage: 'https://imagedelivery.net/6gszw1iux5BH0bnwjXECTQ/fc027225-c8ad-4d9b-6fb7-bb10eb990b00/small'
 pinned: false
+notCompleted: true
 ---
 
 > 这个文档由AI从英文翻译而来，如果你有更好的翻译，请提交一个PR。
