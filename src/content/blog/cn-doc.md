@@ -3,7 +3,7 @@ title: '恋文 Astro Blog 主题文档'
 description: '介绍如何使用恋文 Astro 主题博客（中文文档）'
 pubDate: 'Mar 27 2023'
 heroImage: 'https://imagedelivery.net/6gszw1iux5BH0bnwjXECTQ/fc027225-c8ad-4d9b-6fb7-bb10eb990b00/small'
-pinned: true
+pinned: false
 ---
 
 > 这个文档由AI从英文翻译而来，如果你有更好的翻译，请提交一个PR。
@@ -138,24 +138,6 @@ body {
 ```md
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
 ```
-
-## 如何托管我的博客
-
-为了方便编辑，您可以将仓库导入到您的GitHub账户。
-
-![导入到 GitHub](https://imagedelivery.net/6gszw1iux5BH0bnwjXECTQ/66e68dab-9351-4eb2-3141-6a5870801a00/public)
-
-> [如何导入到 GitHub](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer)
-
-然后，您可以将其部署到任何您喜欢的免费静态站点托管服务。
-
-推荐免费托管服务：
-
-- [Cloudflare Pages](https://pages.cloudflare.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-使用这些服务不需要准备域名，但建议使用自己购买的域名。
 
 ## 借物表
 
