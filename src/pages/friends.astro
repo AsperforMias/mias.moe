@@ -1,0 +1,121 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import {SITE_TITLE, SITE_DESCRIPTION} from '../consts';
+import { Card } from '@koibumi-design/solidjs'
+import FriendCard from '../components/FriendCard.astro';
+
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+</head>
+<body>
+<Header/>
+<main>
+    <div class="page-title">
+        <Card variant="glass">
+            <h1><strong>友情链接</strong></h1>
+        </Card>
+    </div>
+    <div class="friend-card-container">
+        <FriendCard avatar="/friends-avatar/asuka.webp" name="Asuka Minato" description="" link="https://asukaminato.eu.org/" />
+        <FriendCard avatar="/friends-avatar/alice.webp" name="Alice Aierlanta" description="" link="https://blog.aierlanta.net" />
+        <FriendCard avatar="/friends-avatar/toya.jpg" name="Fuyutsuki Toya" description="" link="https://toya.moe" />
+        <FriendCard avatar="/friends-avatar/shinnku.webp" name="Shinnku Nikaidoou" description="" link="https://nkd.red" />
+        <FriendCard avatar="/friends-avatar/yurzhang.webp" name="Yurzhang" description="" link="https://yurzhang.com" />
+    </div>
+</main>
+
+<Footer/>
+</body>
+</html>
+
+<style>
+  .friend-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    main {
+        max-width: 70rem;
+        width: 100%;
+        margin: 3rem auto;
+        padding: 0 1rem;
+    }
+
+    main > * {
+        margin-bottom: 2rem;
+    }
+
+    main > *:last-child {
+        margin-bottom: 0;
+    }
+
+    #avatar-bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    #avatar-bio > img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+    #bio {
+        max-width: 20rem;
+    }
+
+    @media (max-width: 700px) {
+        #avatar-bio {
+            flex-direction: column;
+        }
+
+        #bio {
+            max-width: 100%;
+        }
+    }
+
+    #bio > p {
+        line-height: 1.5;
+        letter-spacing: .02rem;
+    }
+
+    #bio > * {
+        margin-bottom: 0.75rem;
+    }
+
+    #bio > *:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: .25rem
+    }
+
+    .icon-link {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .page-title {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    #pinned-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+        margin-top: -1.5rem;
+    }
+</style>
