@@ -11,7 +11,7 @@ export const AVATAR_SRC = '/avatar.avif';
 
 export const BIO = "Hi~这里是米娜，一个平庸的大飞舞,什么都不会！QAQ";
 
-export const GLOBAL_STYLE: 'quartz' | 'glass' | 'lightGlass' = 'glass'
+export const GLOBAL_STYLE: 'quartz' | 'glass' | 'lightGlass' = 'lightGlass'
 
 export const COPYRIGHT_NAME = 'AsperforMias';
 
