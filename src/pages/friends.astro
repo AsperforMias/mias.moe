@@ -19,6 +19,7 @@ import FriendCard from '../components/FriendCard.astro';
 <main>
     <div class="page-title">
         <Card variant="glass">
+            {/* 移除内联样式 */}
             <h1><strong>友情链接</strong></h1>
         </Card>
     </div>
@@ -40,7 +41,8 @@ import FriendCard from '../components/FriendCard.astro';
   .friend-card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Changed to center */
+    gap: 1rem; /* Added gap */
   }
     main {
         max-width: 70rem;
@@ -111,6 +113,12 @@ import FriendCard from '../components/FriendCard.astro';
 
     .page-title {
         font-size: x-large;
+        text-align: center;
+    }
+
+    /* 修改样式规则，提高优先级 */
+    main .page-title h1 { /* 在前面加上 main */
+        color: var(--color-primary) !important;
         text-align: center;
     }
 
