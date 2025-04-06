@@ -1,6 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import {GLOBAL_STYLE, SITE_TITLE} from '../consts';
+import {GLOBAL_STYLE, SITE_NAME} from '../consts';
 import "@/styles/components.scss";
 import {clsx} from "clsx";
 ---
@@ -16,7 +16,7 @@ import {clsx} from "clsx";
   <nav>
     <h1>
       <a href="/" id="title" class="link">
-        {SITE_TITLE}
+        {SITE_NAME}
       </a>
     </h1>
     <div class="internal-links">

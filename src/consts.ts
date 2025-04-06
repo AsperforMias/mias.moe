@@ -1,9 +1,11 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = 'AsperforMias\' Blog';
+export const SITE_TITLE = '『我追寻最初梦的光点，只为让噩梦迎来终焉。』| Mias-Blog';
 
-export const SITE_DESCRIPTION = '『我追寻最初梦的光点，只为让噩梦迎来终焉。』| Mias-blog';
+export const SITE_NAME = 'AsperforMias\' Blog'
+
+export const SITE_DESCRIPTION = 'A simple blog of AsperforMias,built with SolidJS and Astro ';
 
 export const FAVICON_SRC = '/favicon.svg';
 
