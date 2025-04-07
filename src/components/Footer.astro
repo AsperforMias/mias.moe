@@ -13,8 +13,13 @@ const today = new Date();
         GLOBAL_STYLE === 'lightGlass' && 'light-glass',
     )}
 >
-        &copy; {today.getFullYear()}&nbsp;{COPYRIGHT_NAME}. All rights reserved.<br>
+    <div class="footer-content">
+        <span class="copyright">Copyright &copy; {today.getFullYear()}&nbsp;{COPYRIGHT_NAME}</span>
+        <span class="separator">|</span>
+        <a class="link" href="https://icp.gov.moe/?keyword=20250160" target="_blank">萌ICP备20250160号</a>
+        <span class="separator">|</span>
         Powered by <a class="link" href="https://github.com/koibumi-design/astro-blog">Koibumi Design</a>
+    </div>
 </footer>
 
 <style>
