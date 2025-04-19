@@ -17,7 +17,7 @@ This is [AsperforMias](mailto:asperformias000@gmail.com)'s astro blog with [koib
 
 - **框架**: [Astro](https://astro.build/)
 - **语言**: [TypeScript](https://www.typescriptlang.org/)
-- **样式**: [Tailwind CSS](https://tailwindcss.com/)
+- **样式**: [SCSS/Sass](https://sass-lang.com/)
 - **包管理**: [PNPM](https://pnpm.io/)
 - **构建工具**: [Vite](https://vitejs.dev/) (由 Astro 内置)
 - **部署**: [GitHub Actions](https://github.com/features/actions)
