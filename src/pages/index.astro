@@ -47,11 +47,6 @@ const posts = (await getCollection('blog'))
         </section>
     </Card>
 
-    <Card variant={GLOBAL_STYLE}>
-        <h3>
-            Pinned Posts
-        </h3>
-    </Card>
     <section id="pinned-container">
         {
             posts.map((post) => (
@@ -69,7 +64,7 @@ const posts = (await getCollection('blog'))
     main {
         max-width: 70rem;
         width: 100%;
-        margin: 3rem auto;
+        margin: 2rem auto;
         padding: 0 1rem;
     }
 
@@ -86,11 +81,14 @@ const posts = (await getCollection('blog'))
         justify-content: center;
         align-items: center;
         gap: 3rem;
+        max-width: 40rem;
+        width: 100%;
+        margin: 0 auto;
     }
 
     #avatar-bio > img {
-        width: 15rem;
-        height: 15rem;
+        width: 12rem;
+        height: 12rem;
         border-radius: 50%;
     }
 
