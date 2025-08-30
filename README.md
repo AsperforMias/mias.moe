@@ -8,10 +8,10 @@ This is [AsperforMias](mailto:asperformias000@gmail.com)'s astro blog with [koib
 
 ## Feature
 
-- ⚡️ 便携的静态页面生成
-- 🔍 良好的**SEO**支持
-- 📱 响应式设计，适配各种设备(ps:我没做移动端各种像素比例的样式适配)
-- ✍️ **Markdown**支持，便于内容创作
+- 便携的静态页面生成
+- **SEO**支持
+- 响应式设计，适配各种设备(ps:我没做移动端各种像素比例的样式适配)
+- **Markdown**支持，便于内容创作
 
 ## Tech Stacks
 
